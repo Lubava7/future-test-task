@@ -1,0 +1,26 @@
+.App {
+  background-image: url("../public/bookBackground.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 25px; */
+}
+h1 {
+  color: white;
+  font-size: 35px;
+  text-shadow: 2px 2px 2px #8c1b21, 0 2px 2px #8c1b21, -2px 0 2px #8c1b21,
+    0 -2px 2px #8c1b21;
+}
+.choice_input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  border: 0.5px solid white;
+  background-color: rgba(255, 255, 255, 0.6);
+}
