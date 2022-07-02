@@ -5,7 +5,7 @@ function SortInput() {
   return (
     <div className="sort_input">
       <select>
-        <option selected="selected" value="all">
+        <option defaultValue="selected" value="all">
           relevance
         </option>
         <option value="art">newest</option>

@@ -2,6 +2,7 @@ import "./App.css";
 import CategoryInput from "./components/CategoryInput/CategoryInput";
 import SortInput from "./components/SortInput/SortInput";
 import SearchInput from "./components/SearchInput/SearchInput";
+import BookOutput from "./components/BookOutput/BookOutput";
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             <SortInput />
           </div>
         </div>
+      </div>
+      <div className="books_output">
+        <BookOutput />
       </div>
     </div>
   );

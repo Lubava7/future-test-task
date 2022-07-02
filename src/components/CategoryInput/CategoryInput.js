@@ -5,7 +5,7 @@ function CategoryInput() {
   return (
     <div className="category_input">
       <select>
-        <option selected="selected" value="all">
+        <option defaultValue="selected" value="all">
           all
         </option>
         <option value="art">art</option>

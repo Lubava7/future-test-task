@@ -1,0 +1,43 @@
+.one_card {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid white;
+  background-color: rgba(250, 235, 215, 0.9);
+  margin: 3px;
+  padding: 20px;
+  height: 350px;
+  width: 190px;
+}
+.one_card img {
+  height: 170px;
+  width: 150px;
+}
+.descript_book {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.category {
+  margin: 0;
+  height: 20px;
+  width: 100%;
+  font-size: 12px;
+  color: grey;
+  text-decoration: underline;
+}
+.title {
+  margin: 1 0 0 0;
+  height: 70px;
+  width: 100%;
+  font-size: 16px;
+  color: black;
+  overflow: hidden;
+}
+.author {
+  margin: 0;
+  height: 20px;
+  width: 100%;
+  font-size: 12px;
+  color: grey;
+}
